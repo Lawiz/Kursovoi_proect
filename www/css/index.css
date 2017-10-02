@@ -11,6 +11,13 @@ body {
     -webkit-overflow-scroling: touch;
 }
 
+.label {
+    margin-top: -20px;
+}
+
+
+/*главная страница*/
+
 h1,
 h2,
 h3,
@@ -37,6 +44,7 @@ a {
 
 .navbar {
     border-radius: 0px;
+    padding-bottom: -30px;
 }
 
 .navbar-inverse {
@@ -117,4 +125,64 @@ a {
     padding-top: 70px;
     padding-bottom: 70px;
     color: #eae7e7;
+}
+
+#icons {
+    background: #2d2d2d;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#icons i {
+    color: #bdbdbd;
+    padding: 20 px;
+}
+
+#icons i:hover {
+    collor: #ff7878;
+}
+
+.about-fixed {
+    position: fixed;
+    width: 20.8%;
+}
+
+.my-pic {
+    width: 100%;
+    box-shadow: -2px -1px 88px 0px rgba(0, 0, 0, 0.17);
+}
+
+.my-pic img {
+    width: 100%;
+}
+
+.my-detail {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #ffffff;
+    box-shadow: -2px -1px 88px 0px rgba(0, 0, 0, 0.17);
+}
+
+.my-detail .white-spacing {
+    padding: 23px 0;
+    border-bottom: 1px dashed #cccccc;
+}
+
+.my-detail h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.my-detail span {
+    color: #c1c1c1;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+/*об авторе*/
+
+.card-img-top {
+    margin-top: 60px;
 }
