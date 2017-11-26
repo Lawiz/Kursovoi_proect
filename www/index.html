@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,47 +8,43 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href=C:/Users/petrs/Desktop/Kursovoi_proect/www/css/font-awesome.min.css>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="C:/Users/petrs/Desktop/Kursovoi_proect/www/css/font-awesome.min.css">
 </head>
-
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+<body>  
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-static-top">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <h3><span class="label label-primary navbar-brand">Мир IT</span></h3>
-
+            <div class="navbar-brand">
+                Мир IT
             </div>
-            <div class="navbar-collapse collapse">
+            <div id="menu" class="collapse navbar-collapse navheaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a href="#">главная</a>
-                    </li>
-                    <li>
-                        <a href="AboutAvtor.html">о авторе</a>
-                    </li>
-                    <li>
-                        <a href="#">контакты</a>
-                    </li>
+                    <li><a href="#first_anchor"data-target="anchor">Направления</a></li>
+                    <li><a href="#second_anchor" data-target="anchor">Еще Направления</a></li>
+                    <li><a href="#third_anchor" data-target="anchor">Литература</a></li>
+                    <li><a href="#fourth_anchor" data-target="anchor">Ресурсы</a></li>
+                    <li><a href="#fourh_anchor" data-target="anchor">Компании</a></li>
                 </ul>
+
             </div>
         </div>
+       
     </div>
-    <div id="headerwrapper">
-        <div class="container">
-            <div class="row centered">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h1>Замечательный мир IT</h1>
-                    <h2>Все самое интересное</h2>
+         
+        <div class="for_size container" id="headerwrapper">
+            <div class="container fluid">
+                <div class="row centered">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <a name="first_img"></a>
+                        <h1>Замечательный мир IT</h1>
+                        <h2>Все самое интересное</h2>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container content">
+    <div class="container content for_size" id="first_anchor">
+            
         <div class="row centered marrgin ">
 
             <div class="col-lg-12">
@@ -72,17 +68,21 @@
             </div>
         </div>
     </div>
-    <div id="bodywrapper">
-        <div class="container">
+    </div>
+    <div id="bodywrapper" class="for_size">
+        <a href="second_img"></a>
+        <div class="container for_size">
             <div class="row centered">
                 <div class="col-lg-8 col-lg-offset-2">
+                    <a name="second-img"></a>                        
                     <h1>Он интересный</h1>
                     <h2>Он захватывающий</h2>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container content">
+    <div class="container content for_size" id="second_anchor">
+            
         <div class="row centered marrgin ">
 
             <div class="col-lg-12">
@@ -106,6 +106,41 @@
             </div>
         </div>
     </div>
+    <div id="third_img">
+        <div class="container for_size">
+            <h2 id="third_anchor">Книги для программистов</h2>                
+        </div>
+    </div>
+    <div class="container">
+        <div class="content ">
+            <ul>
+
+              <li>
+                  <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio vel nisi cupiditate ut quibusdam totam. Harum, quia tenetur animi illum ducimus omnis odit ratione, nisi sed, consequuntur delectus mollitia quasi!</div>
+                  <div>Et id aspernatur nulla asperiores ullam perspiciatis explicabo quis officia! Cupiditate animi sint, ipsam earum blanditiis mollitia temporibus a laudantium illo eius, odio provident porro assumenda voluptatibus vel neque ipsum.</div>
+              </li>
+              <li>
+                  <div>Illum adipisci nemo architecto dicta, dolore deleniti laudantium cumque eligendi, sed dignissimos tempore ratione quasi assumenda explicabo ut quia blanditiis molestias atque neque enim minima harum? Officia, aliquid! Magni, ratione!</div>
+                  <div>Quae reprehenderit veniam omnis corrupti facilis ducimus, commodi quisquam, repellendus doloremque inventore aperiam incidunt, quasi voluptatibus laborum? Nam aliquid distinctio enim ratione ut sequi doloribus excepturi! Impedit totam explicabo possimus?</div>
+              </li>
+              <li>
+                  <div>In explicabo recusandae deserunt animi delectus fugiat quaerat, distinctio magnam, dolorem beatae facere incidunt veniam eveniet, atque rem repellendus. Praesentium at recusandae commodi, fugiat quibusdam cupiditate molestias vel possimus quia.</div>
+                  <div>Sed molestias nostrum quidem esse tenetur inventore necessitatibus similique quae reiciendis dolor, debitis, perferendis omnis quod consectetur non odit voluptatum sunt temporibus veritatis voluptates magnam. Sed sint aliquam ducimus facilis!</div>
+              </li>
+              <li>
+                  <div>Expedita quis quibusdam mollitia labore, necessitatibus quas rem nesciunt corrupti aliquam neque architecto enim earum! Suscipit est veritatis aspernatur dolores debitis reiciendis. Officia unde perspiciatis, reiciendis vitae inventore expedita nulla.</div>
+                  <div>Architecto, ab cumque voluptatum quia culpa provident at maxime aspernatur eveniet sed ipsum fuga, totam in sint consectetur dolore dicta nisi? Ea ex facere debitis, quo distinctio ratione esse similique!</div>
+              </li>
+              <li>
+                  <div>Aliquid hic in itaque minus tenetur ab laudantium rerum qui animi temporibus totam incidunt mollitia sequi delectus modi rem soluta ullam, doloribus voluptatibus reprehenderit unde, velit deleniti nihil distinctio? Totam?</div>
+                  <div>Unde ad quam aperiam accusamus inventore dolores corporis adipisci corrupti aliquid eos, dolorum, dolor est officiis, animi sed itaque error reprehenderit facilis mollitia nostrum consectetur ullam minima facere. Sapiente, necessitatibus?</div>
+              </li>
+              <li>
+                  <div>Repudiandae repellat voluptatem culpa minima sint doloribus possimus fugit exercitationem, pariatur qui aliquid ducimus fugiat! Porro culpa dolorum voluptate, vero minus amet aperiam corrupti laborum quaerat ipsum laudantium rem ducimus.</div>
+                  <div>Nihil vitae amet, incidunt ea voluptate officia nobis dolor. Nobis facere molestias quia rem expedita vel consequuntur esse distinctio veritatis et nemo neque odit culpa quasi magnam, quas earum laboriosam.</div>
+              </li>
+        </div>
+    </div>
     <div id="footer">
         <div class="container">
             <div class="row centered">
@@ -118,23 +153,28 @@
         </div>
     </div>
     <div id="icons">
-        <div class="container">
-            <div class="row centered">
+        
+            <div class="row right">
+                <div class="col-lg-5">
+                    <div class="text-footer-with-icons">
+                    </div>
+                </div>
+                <div class="col-lg-4">
                 <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
                 <a href="#"><i class="fa fa-vk fa-2x"></i></a>
                 <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
                 <a href="#"><i class="fa fa-telegram fa-2x"></i></a>
+                </div>
             </div>
         </div>
     </div>
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
+    <script src="C:\\Users\petrs.PETR\Desktop\Kursovoi_proect\www\js\index.js"></script>
 
 
 

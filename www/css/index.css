@@ -11,12 +11,10 @@ body {
     -webkit-overflow-scroling: touch;
 }
 
-.label {
-    margin-top: -20px;
-}
 
 
 /*главная страница*/
+
 
 h1,
 h2,
@@ -44,7 +42,8 @@ a {
 
 .navbar {
     border-radius: 0px;
-    padding-bottom: -30px;
+    height: 50px;
+    
 }
 
 .navbar-inverse {
@@ -55,23 +54,40 @@ a {
 .navbar-inverse .navbar-nav>.active>a {
     background-color: #ff7878;
 }
+.navbar-brand{
+    padding-top: 15px;   
+}
+.nav>li:hover{
+    background-color: #eae7e7;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #2d2d2d;
+    
+}
+
+
 
 .navbar-inverse .navbar-brand {
     color: #999;
     font-weight: bolder;
-    font-size: 26;
+    font-size: 30px;
 }
 
 #headerwrapper {
     background: url('C:\\Users\\petrs\\Desktop\\Kursovoi_proect\\www\\4.png') no-repeat center top;
     text-align: center;
+    position: relative;    
+    height: 100%;
     background-attachment: scroll;
     margin-top: -20px;
     padding-top: 30px;
     background-position: center center;
-    min-height: 500px;
     width: 100%;
     background-size: 100%;
+}
+.for_size{
+    min-height: 600px !important;
 }
 
 #bodywrapper {
@@ -138,14 +154,34 @@ a {
     padding: 20 px;
 }
 
+
 #icons i:hover {
     collor: #ff7878;
+}
+
+#third_img{
+    background:  url('C:\\Users\\petrs.PETR\\Desktop\\Kursovoi_proect\\www\\imgs\\book_img.jpg') no-repeat center;
+
+
+}
+#third_img>h2{
+    padding-top:0px;
+}
+.content>ul>li{
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.content{
+    padding-top:10px;
+    padding-bottom: 10px;   
 }
 
 .about-fixed {
     position: fixed;
     width: 20.8%;
 }
+
+
 
 .my-pic {
     width: 100%;
@@ -179,10 +215,18 @@ a {
     line-height: 30px;
     font-size: 16px;
 }
-
-
-/*об авторе*/
-
-.card-img-top {
-    margin-top: 60px;
+#icons{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 40px;
 }
+.right{
+    text-align: right;
+}
+.left{
+    text-align:left;
+}
+
+
+
+
