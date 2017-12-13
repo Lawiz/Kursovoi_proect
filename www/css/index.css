@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*reset style*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+ol,ul {
+    list-style: none;
+}
+caption,th {
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+
 body {
     background-color: #eeddee;
     font-family: "Montserrat";
@@ -10,7 +45,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scroling: touch;
 }
-
 
 
 /*главная страница*/
@@ -33,11 +67,22 @@ p {
 }
 
 .centered {
-    text-align: center;
+    text-align: justify;
+
 }
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
 
 a {
-    color: #f85c37;
+    font-size: 18px;
+}
+.clock
+{
+    padding-top: 10px;   
+    padding-right: 20px;
 }
 
 .navbar {
@@ -65,6 +110,10 @@ a {
     color: #2d2d2d;
     
 }
+a:link { color: blue }
+a:visited { color: darkblue }
+a:hover { color: turquoise }
+a:active {color: darkslategray }
 
 
 
@@ -73,9 +122,13 @@ a {
     font-weight: bolder;
     font-size: 30px;
 }
+.maincontent
+{
+    text-align: left;
+}
 
-#headerwrapper {
-    background: url('C:\\Users\\petrs\\Desktop\\Kursovoi_proect\\www\\4.png') no-repeat center top;
+#headerwrapper{
+    background:url('../imgs/4.png') no-repeat center;
     text-align: center;
     position: relative;    
     height: 100%;
@@ -91,7 +144,7 @@ a {
 }
 
 #bodywrapper {
-    background: url('C:\\Users\\petrs\\Desktop\\Kursovoi_proect\\www\\3.jpg') no-repeat center;
+    background: url('../imgs/3.jpg') no-repeat center;
     text-align: center;
     background-attachment: scroll;
     background-position: center center;
@@ -160,7 +213,7 @@ a {
 }
 
 #third_img{
-    background:  url('C:\\Users\\petrs.PETR\\Desktop\\Kursovoi_proect\\www\\imgs\\book_img.jpg') no-repeat center;
+    background:  url('../imgs/book_img.jpg') no-repeat center;
 
 
 }
@@ -226,7 +279,24 @@ a {
 .left{
     text-align:left;
 }
+#fourthimg{
+    background: url('../imgs/top_img.jpg') no-repeat center;
+}
+#fifthimg{
+    background: url('../imgs/подкладка.jpg') no-repeat center;
 
+}
+.companysimg{
+    width: 80px;
+    padding-right: 10px;
+}
+ul.companys{
 
+    list-style: none;   
+}
+.text-footer-with-icons
+{
+    color:white;
+}
 
-
+/*progress barr*/
